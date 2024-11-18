@@ -17,6 +17,8 @@ Possibilité de choisir pour le sklearn, la verison de traitement des images en 
 Une version de ce projet est également disponible en utilisant PyTorch pour une meilleure précision, efficacité et des paramètres optimisés pour les modèles CNN. De plus à l'aide de la librairie `transforms`, j'ai pu faire des manpulations sur les images tel que : 
 - Rotation aléatoire
 - Transformation affine
+- Normalise les couleurs de l'image (RVB)
+- Convertit l'image en tenseur (tableau multidimensionnel PyTorch) 
 
 ## Structure du Projet
 
