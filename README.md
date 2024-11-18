@@ -6,7 +6,7 @@ Ce projet utilise des images pour entraîner des modèles d'intelligence artific
 Exemple :
 | Image Réelle | Icone numérique |
 |:------------:|:---------------:|
-|![00000002](https://github.com/user-attachments/assets/53f53189-4e3b-466c-b9fd-0295e02ddb64)|![96](https://github.com/user-attachments/assets/7cc8ad32-718e-4d63-8fa2-ae391d8a0a4c)
+|![00000002](https://github.com/user-attachments/assets/53f53189-4e3b-466c-b9fd-0295e02ddb64)|![96](https://github.com/user-attachments/assets/7cc8ad32-718e-4d63-8fa2-ae391d8a0a4c)|
 
 
 
@@ -14,7 +14,9 @@ Exemple :
 Possibilité de choisir pour le sklearn, la verison de traitement des images en couleur ou en nuance de gris.
 
 ### Version PyTorch
-Une version de ce projet est également disponible en utilisant PyTorch pour une meilleure précision, efficacité et des paramètres optimisés pour les modèles CNN.
+Une version de ce projet est également disponible en utilisant PyTorch pour une meilleure précision, efficacité et des paramètres optimisés pour les modèles CNN. De plus à l'aide de la librairie `transforms`, j'ai pu faire des manpulations sur les images tel que : 
+- Rotation aléatoire
+- Transformation affine
 
 ## Structure du Projet
 
