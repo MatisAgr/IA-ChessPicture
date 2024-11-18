@@ -2,6 +2,8 @@
 
 Ce projet utilise des images pour entraîner des modèles d'intelligence artificielle capables de reconnaître différents pions d'échecs (roi, reine, cavalier, etc.). Le projet exploite deux types de modèles : un **Perceptron Multicouche (MLP)** et un **Arbre de Décision**.
 
+Possibilité de choisir pour le sklearn, la verison de traitement des images en couleur ou en nuance de gris.
+
 ### Version PyTorch
 Une version de ce projet est également disponible en utilisant PyTorch pour une meilleure précision, efficacité et des paramètres optimisés pour les modèles CNN.
 
@@ -10,7 +12,7 @@ Une version de ce projet est également disponible en utilisant PyTorch pour une
 - `ChessDataset/Train/` : Répertoire contenant les images d'entraînement organisées par classe (par exemple : `Roi`, `Reine`, etc.).
 - `ChessDataset/Test/` : Répertoire contenant les images de test organisées par classe.
 
-*(Le nom des dossiers sert pour donner des noms aux )
+*(Le nom des dossiers sert pour donner des noms aux classes)
 ## Prérequis
 
 Avant d'exécuter le projet, assurez-vous d'installer les bibliothèques nécessaires avec la commande suivante :
@@ -20,7 +22,8 @@ pip install scikit-learn matplotlib pillow
 ```
 
 # Étapes du Projet
-1. Chargement des données : Les images sont chargées et prétraitées (redimensionnement à 150x150, conversion RGB, normalisation).
+1. Choisir le projet sklearn_grey / sklearn_color / torch
+1. Chargement des données : Les images sont chargées et prétraitées (redimensionnement à 150x150, conversion RGB ou L, normalisation).
 2. Entraînement :
     - Modèle MLP : Un perceptron multicouche est entraîné pour classifier les pions.
     - Modèle Arbre de Décision : Une alternative plus simple pour la classification.
