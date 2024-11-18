@@ -1,7 +1,7 @@
 # Reconnaissance de Pions d'Échecs avec IA
 
 Ce projet utilise des images pour entraîner des modèles d'intelligence artificielle capables de reconnaître différents pions d'échecs (roi, reine, cavalier, etc.). Le projet exploite deux types de modèles : un **Perceptron Multicouche (MLP)** et un **Arbre de Décision**.
-Le but est que notre IA puisse reconnaitre les icones numérique des pièces d'échec à l'aide des connaissances sur des images de pieces du monde réel.
+<br />Le but est que notre IA puisse reconnaitre les icones numérique des pièces d'échec à l'aide des connaissances sur des images de pieces du monde réel.
 
 Exemple :
 | Image Réelle | Icone numérique |
