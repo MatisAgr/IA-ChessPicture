@@ -85,6 +85,5 @@ L'arbre de décision est visualisé pour analyser les règles de classification 
 
 
 # Améliorations Futures
-- Ajout de modèles plus avancés comme les réseaux de neurones convolutifs (CNN) pour une meilleure précision, car actuellement l'accuracy est assez faible.
 - Ajout d'augmentation de données pour rendre le modèle plus robuste.
 - Optimisation des hyperparamètres.
