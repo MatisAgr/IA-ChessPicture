@@ -1,5 +1,5 @@
 # Reconnaissance de Pions d'Échecs avec IA
-[![wakatime](https://wakatime.com/badge/user/a16f794f-b91d-4818-8dfc-d768ce605ece/project/6b23f3f1-42a9-468b-809a-3fa525befdf5.svg)](https://wakatime.com/badge/user/a16f794f-b91d-4818-8dfc-d768ce605ece/project/6b23f3f1-42a9-468b-809a-3fa525befdf5) + [![wakatime](https://wakatime.com/badge/user/a16f794f-b91d-4818-8dfc-d768ce605ece/project/fccc6583-d3b5-44d3-aa13-fc04318d316b.svg)](https://wakatime.com/badge/user/a16f794f-b91d-4818-8dfc-d768ce605ece/project/fccc6583-d3b5-44d3-aa13-fc04318d316b)
+[![wakatime](https://wakatime.com/badge/user/a16f794f-b91d-4818-8dfc-d768ce605ece/project/6b23f3f1-42a9-468b-809a-3fa525befdf5.svg)](https://wakatime.com/badge/user/a16f794f-b91d-4818-8dfc-d768ce605ece/project/6b23f3f1-42a9-468b-809a-3fa525befdf5)
 
 Ce projet utilise des images pour entraîner des modèles d'intelligence artificielle capables de reconnaître différents pions d'échecs (roi, reine, cavalier, etc.). Le projet exploite deux types de modèles : un **Perceptron Multicouche (MLP)** et un **Arbre de Décision**.
 <br />Le but est que notre IA puisse reconnaitre les icones numérique des pions d'échec à l'aide des connaissances sur des images de pions du monde réel.
